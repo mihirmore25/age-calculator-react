@@ -105,20 +105,24 @@ label {
 
 @media only screen and (max-width: 550px) {
     .card {
-        min-height: 500px;
+        min-height: 300px;
         height: auto;
         width: 100%;
         background-color: hsl(0, 0%, 100%);
         border-radius: 25px;
         border-bottom-right-radius: 100px;
-        margin: 10px;
+        margin: 20px;
     }
 
     .age {
         display: flex;
-        justify-content: space-between;
+        justify-content: flex-start;
         align-items: center;
         margin: 40px;
+    }
+
+    .age div {
+        margin-right: 20px;
     }
 
     .day,
@@ -131,7 +135,7 @@ label {
         font-weight: 600;
         font-size: 15px;
         margin-right: 10px;
-        color: hsl(0, 0%, 86%);
+        color: hsl(0, 1%, 44%);
         outline: none;
     }
 
@@ -196,14 +200,18 @@ label {
         background-color: hsl(0, 0%, 100%);
         border-radius: 25px;
         border-bottom-right-radius: 100px;
-        margin: 10px;
+        margin: 20px;
     }
 
     .age {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between;
         align-items: center;
         margin: 20px;
+    }
+
+    .age div {
+        margin-right: 10px;
     }
 
     .day,
@@ -216,7 +224,7 @@ label {
         font-weight: 600;
         font-size: 12px;
         margin-right: 5px;
-        color: hsl(0, 0%, 86%);
+        color: hsl(0, 1%, 44%);
         outline: none;
     }
 
